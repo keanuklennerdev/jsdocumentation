@@ -62,6 +62,12 @@ function exampleFunction(param) {
   return param;
 }
 ```
+#### Arrow function (just usable in a variable or directly as callback in a param)
+```js
+const exampleFunction = (param) => {
+  return param;
+}
+```
 #### Callback function
 A callback function is a function passed as an argument to another function.
 ```js
